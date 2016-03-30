@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid
+        android:color="#FF00B4FF"/>
+    <corners
+        android:radius="5dp" />
+
+</shape><!-- From: file:/D:/im/download/openIMDemo_src_1.9.7.2/res/drawable/send_at_msg_at_again_bg.xml -->

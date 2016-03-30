@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="1.0.1"><source path="D:\im\download\openIMDemo_src_1.9.7.2\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\assets"/></dataSet><dataSet config="main"><source path="D:\im\download\openIMDemo_src_1.9.7.2\assets"><file name="pinyin.dat" path="D:\im\download\openIMDemo_src_1.9.7.2\assets\pinyin.dat"/></source></dataSet><dataSet config="debug"><source path="D:\im\download\openIMDemo_src_1.9.7.2\src\debug\assets"/></dataSet></merger>

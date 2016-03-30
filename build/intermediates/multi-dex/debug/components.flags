@@ -1,0 +1,38 @@
+-injars 'D:\im\download\openIMDemo_src_1.9.7.2\build\intermediates\multi-dex\debug\allclasses.jar'
+-outjars 'D:\im\download\openIMDemo_src_1.9.7.2\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\android-sdk\build-tools\22.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration 'D:\im\download\openIMDemo_src_1.9.7.2\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.taobao.openimui.demo.DemoApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.alibaba.mobileim.appmonitor.tiptool.TooltipService {
+    <init>();
+}
+
+-keep class com.alibaba.tcms.service.TCMSService {
+    <init>();
+}
+
+-keep class com.alibaba.tcms.service.ListenerService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
